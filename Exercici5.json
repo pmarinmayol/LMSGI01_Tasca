@@ -1,0 +1,40 @@
+{
+    "enquestes": [
+        {
+            "id": 1,
+            "titol": "Satisfacció amb el servei",
+            "activa": true,
+            "preguntes": [
+                {
+                    "ordre": 1,
+                    "text": "Com valores l'atenció rebuda?",
+                    "tipus": "opcio_multiple",
+                    "opcions": ["Molt bona", "Bona", "Millorable", "Dolenta"]
+                },
+                {
+                    "ordre": 2,
+                    "text": "Què milloraries del servei?",
+                    "tipus": "text_lliure"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titol": "Preferències de compra",
+            "activa": false,
+            "preguntes": [
+                {
+                    "ordre": 1,
+                    "text": "Quin canal prefereixes per comprar?",
+                    "tipus": "opcio_multiple",
+                    "opcions": ["Botiga física", "Web", "Aplicació mòbil"]
+                },
+                {
+                    "ordre": 2,
+                    "text": "Quin producte t'agradaria trobar?",
+                    "tipus": "text_lliure"
+                }
+            ]
+        }
+    ]
+}
